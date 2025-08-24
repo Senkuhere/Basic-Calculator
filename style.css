@@ -1,0 +1,80 @@
+
+body {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+     display: flex;
+     min-height: 100vh;
+}
+@media (max-width: 480px) {
+    
+    
+}
+.box-frame {
+    background-color: black;
+    border-radius: 20px;
+    
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 10px 5px 5px lightslategray, -7px -3px 5px lightslategray;
+}
+.box-output {
+    height: 28px;
+    padding: 15px 18px;
+    margin: 5%;
+    margin-top: 7%;
+    border: grey solid 1px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+#output {
+    font-size: 1.5em;
+    
+}
+.buttons {
+    margin-left: 15px;
+    padding: 33px;
+    margin-bottom: 15px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transition: ease;
+    font-size: 1em;
+}
+#blank {
+    background-color: black;
+    border: none;
+}
+#clear {
+    padding-right: 30px;
+    color: red;
+}
+#percent {
+    padding-right: 30px;
+    color: blue;
+}
+
+#divide {
+    color: blue;
+    
+}
+#plus {
+    color: blue;
+}
+#minus {
+    color: blue;
+}
+#multiply {
+    color: blue;
+}
+#point {
+    padding-right: 35px;
+}
+.buttons:active {
+    background-color: grey;
+}
